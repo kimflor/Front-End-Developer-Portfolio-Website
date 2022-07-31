@@ -1,0 +1,98 @@
+a {
+  color: #fff;
+}
+body {
+  background: black;
+}
+#footer {
+  position: fixed;
+  text-align: center;
+  background-color: black;
+  margin: 10px;
+  bottom: 5px;
+}
+a:hover {
+  color: #ce4a87;
+  text-align: center;
+}
+h1,
+h2,
+h3 {
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+}
+h1 {
+  color: #ef759d;
+}
+h2 {
+  margin-top: 10px;
+}
+h3 {
+  margin-top: 60px;
+  color: #ef759d;
+}
+.about-text {
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.creative-work {
+  margin-left: 10px;
+}
+.copyright {
+  color: #fff;
+  text-align: center;
+}
+.she-codes-link {
+  padding-left: 10px;
+}
+.heading {
+  position: static;
+  margin: 20px;
+  padding-top: 30px;
+  width: 100%;
+}
+.cat-gif {
+  height: 200px;
+  width: auto;
+  margin-top: 60px;
+  margin-left: 40%;
+}
+.profile-link {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+.instagram-link {
+  margin-left: 10px;
+}
+.main-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.main-menu ul li a {
+  padding: 20px;
+  display: block;
+  color: #ddd;
+  text-decoration: none;
+  background: #ce4a87;
+}
+
+.main-menu ul li ul {
+  display: none;
+}
+
+.main-menu ul li:hover ul {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.main-menu ul li:hover a {
+  color: #fff;
+}
